@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-sign {
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-sign:hover {
+  color: gray;
+}

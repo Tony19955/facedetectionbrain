@@ -1,0 +1,45 @@
+.imagelinkform-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-info-text {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 4rem;
+  background: rgba(135, 207, 235, 0.2);
+  border: .15rem solid black;
+  border-radius: .9rem;
+}
+
+.url-input {
+  width: 30rem;
+  height: 2rem; 
+  outline: none; 
+  padding: 0;
+}
+
+.search-button {
+  padding: 0;
+  width: 10rem;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  outline: none;
+  background: black;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  color: grey;
+}
